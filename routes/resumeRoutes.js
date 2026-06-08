@@ -35,7 +35,7 @@ router.post("/jobs", async (req, res) => {
             roles.map(async (role) => {
 
                 const response = await axios.get(
-                    "http://127.0.0.1:8000/fetch-jobs",
+                    "https://resume-analyzer-ai-3.onrender.com/fetch-jobs",
                     {
                         params: {
                             role,
