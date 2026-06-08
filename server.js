@@ -9,7 +9,7 @@ const resumeRoutes = require("./routes/resumeRoutes");
 const app = express();
 
 app.use(cors({
-  origin: "https://resume-analyzer-frontend-y3mw.vercel.app/"
+  origin: "https://resume-analyzer-frontend-y3mw.vercel.app"
 }));
 
 app.use(express.json());
